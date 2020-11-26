@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo1/screens/find/findScreen.dart';
-import 'package:flutter_demo1/screens/manager/managerScreen.dart';
-import 'package:flutter_demo1/screens/mine/mineScreen.dart';
-import 'package:flutter_demo1/screens/trend/trendScreen.dart';
+import 'package:flutter_demo1/screens/find/FindScreen.dart';
+import 'package:flutter_demo1/screens/manager/ManagerScreen.dart';
+import 'package:flutter_demo1/screens/mine/MineScreen.dart';
+import 'package:flutter_demo1/screens/trend/TrendScreen.dart';
 
 class Home extends StatefulWidget {
   Home({Key key}) : super(key: key);
