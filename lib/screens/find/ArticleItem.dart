@@ -34,14 +34,7 @@ class ArticleItem extends StatelessWidget {
                     padding: EdgeInsets.all(15),
                     child: Container(
                       width: 100,
-                      child: Text(
-                        model.location,
-                        maxLines: 1,
-                        style: TextStyle(
-                          fontSize: 16,
-                          color: Colors.grey
-                        )
-                      ),
+                      child: Text(model.location, maxLines: 1, style: TextStyle(fontSize: 16, color: Colors.grey)),
                     ),
                   ),
                   Column(
@@ -65,11 +58,7 @@ class ArticleItem extends StatelessWidget {
                     '热招：${model.hot} 等${model.count}个职位', 
                     style: TextStyle(fontSize: 16, color: Colors.grey),
                   ),
-                  Icon(
-                    Icons.arrow_forward_ios_rounded,
-                    size: 20,
-                    color: Colors.grey[500],
-                  ),
+                  Icon(Icons.arrow_forward_ios_rounded, size: 20, color: Colors.grey[500] ),
                 ],
               ),
             ),
