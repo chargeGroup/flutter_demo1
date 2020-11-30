@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo1/home.dart';
+import 'package:flutter_demo1/WelcomePage.dart';
+import 'screens/manager/ManagerScreen.dart';
 
 void main() {
   runApp(App());
@@ -14,7 +15,12 @@ class App extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Home(),
+      home: WelcomePage(),
+      routes: {
+        '/manager': (BuildContext conext) {
+          return ManagerScreen();
+        }
+      },
     );
   }
 }
